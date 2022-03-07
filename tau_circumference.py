@@ -11,10 +11,13 @@ import constants
 
 def main():
     # I calculate circumference
+
     # input
     radius = int(input("Enter radius of the circle in mm: "))
+
     # process
     circumference = constants.TAU * radius
+
     # output
     print("Circumference is {} mm.".format(circumference))
     print("\nDone.")
